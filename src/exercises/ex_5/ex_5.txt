@@ -1,0 +1,10 @@
+Given the list of tuples:
+
+*py*[(9, 3), (4, 5), (9, 9), (4, 2), (10, 2), (20, 3), (4, 1)] 
+
+
+Each tuple contains two numbers. You need to find the tuples where both numbers are even. Then, among all such tuples you 
+must print the one where the sum of the two numbers is the largest.
+
+* SOLUTION * = (10, 2)
+

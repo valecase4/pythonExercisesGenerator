@@ -1,0 +1,16 @@
+Given the dictionary: 
+
+
+*py*{
+*py**tab*"triangle_1": [(0, 0), (2, 5), (5, 4)],
+*py**tab*"triangle_2": [(4, 2), (4, 5), (4, 6)],
+*py**tab*"triangle_3": [(10, 1), (6, 3), (5, 0)]
+*py*} 
+
+
+Each key is a triangle and the corresponding value is a list of three tuples, where each tuple is one of the three points
+for that triangle (represented in coordinates).
+
+Create a dictionary in which each triangle is associated with its perimeter
+
+* SOLUTION * = {}

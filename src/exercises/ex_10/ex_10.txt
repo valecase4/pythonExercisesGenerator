@@ -1,0 +1,11 @@
+Given the following list:
+
+*py* 
+[7, 1, 3, 10, 4, 19, 2, 3, 4] 
+*py* 
+
+Write a program that:
+1. Finds the smallest value in the list
+2. If the number found at point 1 is even, print it. Otherwise, return a string containing an error message.
+ 
+Note: Try solving the exercise without using the min() method

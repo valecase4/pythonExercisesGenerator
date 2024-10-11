@@ -1,0 +1,5 @@
+Write a program that 
+1. Asks the user to input two values.
+2. Check if both values are even.
+3. If either value is not even, the program should prompt the user two new values.
+4. This process continues until both values entered are even

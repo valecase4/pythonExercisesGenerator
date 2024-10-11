@@ -1,0 +1,9 @@
+Given the following list of strings:
+
+*py* 
+["hello", "computer", "programming", "python", "apple", "sun", "hello, world!"] 
+*py* 
+
+Write a program that returns the shortest string in the list.
+
+* SOLUTION * = 'sun'

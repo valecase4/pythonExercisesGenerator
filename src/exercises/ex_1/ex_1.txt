@@ -1,0 +1,16 @@
+Given the dictionary: 
+
+*py*{
+*py*"A": (0, 0),
+*py*"B": (9, 2),
+*py*"C": (3, 4),
+*py*"D": (1, 10),
+*py*"E": (5, 6),
+*py*"F": (4, 2)
+*py*} 
+ 
+
+Each key is a point and the corresponding value is a tuple of its coordinates.
+Find the pair of points such that the line connecting them is the longest.
+
+* SOLUTION * = ('B', 'D')

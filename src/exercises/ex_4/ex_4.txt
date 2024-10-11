@@ -1,0 +1,8 @@
+Given the list:
+
+*py*[8, 4, 5, 1, 10, 4, 5, 7, 4] 
+
+Calculate the greatest value of the list.
+Note: max() method is not allowed
+
+* SOLUTION * = 10

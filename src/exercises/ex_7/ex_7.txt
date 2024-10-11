@@ -1,0 +1,11 @@
+Write a function that accepts a dictionary as a parameter and returns the same dictionary spilled.
+
+For example:
+Input: 
+
+*py*{"first_name": "John", "last_name": "Jackson", "age": 45, "languages": ["English", "Italian"]} 
+
+
+Output: 
+
+*py*{"languages": ["English", "Italian"], "age": 45, "last_name": "Jackson", "first_name": "John"} 

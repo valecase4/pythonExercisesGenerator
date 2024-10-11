@@ -1,0 +1,13 @@
+Given the following data structure displaying a 3x3 matrix
+
+*py* 
+[
+    [10, 3, 5],
+    [3, 4, 1],
+    [4, 4, 2]
+] 
+*py* 
+
+Write a program that finds the column with the greatest sum of its elements.
+
+* SOLUTION * = column 0 -> [10, 3, 4]

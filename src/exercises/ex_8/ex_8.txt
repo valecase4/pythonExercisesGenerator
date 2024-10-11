@@ -1,0 +1,69 @@
+Given the following data structure storing information about different people:
+
+
+*py*people = [
+*py*{
+*py**tab*"first_name": "John",
+*py**tab*"last_name": "Doe",
+*py**tab*"age": 30,
+*py**tab*"is_student": False,
+*py**tab*"address": {
+*py**tab*"street": "123 Elm St",
+*py**tab*"city": "Springfield",
+*py**tab*"zip_code": "62704"
+*py*},
+*py*"languages": ["English", "Spanish", "French"]
+*py*},
+*py*{
+*py*"first_name": "Jane",
+*py*"last_name": "Smith",
+*py*"age": 25,
+*py*"is_student": True,
+*py*"address": {
+*py*"street": "456 Oak St",
+*py*"city": "Greenville",
+*py*"zip_code": "70809"
+*py*},
+*py*"languages": ["English", "German"]
+*py*},
+*py*{
+*py*"first_name": "Emily",
+*py*"last_name": "Johnson",
+*py*"age": 40,
+*py*"is_student": False,
+*py*"address": {
+*py*"street": "789 Pine St",
+*py*"city": "Fairview",
+*py*"zip_code": "90210"
+*py*},
+*py*"languages": ["English", "Italian", "Mandarin"]
+*py*},
+*py*{
+*py*"first_name": "Michael",
+*py*"last_name": "Brown",
+*py*"age": 35,
+*py*"is_student": False,
+*py*"address": {
+*py*"street": "101 Maple St",
+*py*"city": "Lakeside",
+*py*"zip_code": "30318"
+*py*},
+*py*"languages": ["English", "Portuguese"]
+*py*},
+*py*{
+*py*"first_name": "Sarah",
+*py*"last_name": "Davis",
+*py*"age": 28,
+*py*"is_student": True,
+*py*"address": {
+*py*"street": "202 Cedar St",
+*py*"city": "Brookhaven",
+*py*"zip_code": "11235"
+*py*},
+*py*"languages": ["English", "Japanese", "Korean"]
+*py*}
+*py*] 
+
+Write a program that:
+1. Calculates the average age among the five people
+2. Finds how many people speak Italian.

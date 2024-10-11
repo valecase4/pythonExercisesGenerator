@@ -1,0 +1,5 @@
+Write a function that accepts three parameters.
+If all the parameters are integer or can be converted to a integer, the function should print them in a list.
+Otherwise, the function should raise a ValueError with a custom error message.
+
+Tip: use Try/Except block

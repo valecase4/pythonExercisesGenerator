@@ -1,0 +1,13 @@
+Given the dictionary:
+
+*py*{
+*py*"first_name": "John",
+*py*"last_name": "Jackson",
+*py*"age": 39,
+*py*"full_time": False
+*py*} 
+
+
+For each key-value pair in the dictionary, print the data type of the value
+
+* SOLUTION * = string, string, integer, boolean
