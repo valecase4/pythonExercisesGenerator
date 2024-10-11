@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Python Exercise Generator </title>
+
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="container">
+            <div class="exercise-container">
+                <div class="exercise-track">
+                    {% for line in content %}
+                        {% if line.startswith("*py*") %}
+                            {% set my_line = line.replace("*py*", "") %}
+                            {% if "*tab*" in my_line %}
+                                {% set my_line = my_line.replace("*tab*", '&nbsp;&nbsp;&nbsp;&nbsp;') | safe %}
+                            {% endif %}
+                            <div class="exercise-track-row code">
+                                {{ my_line }}
+                            </div>
+                        {% elif line.startswith("*copy*") %}
+                            <div class="exercise-track-row no-code copy">
+                                <button id="copyBtn">COPY</button>
+                            </div>
+                        {% else %}
+                            <div class="exercise-track-row no-code">
+                                {{ line }}
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                    <div class="exercise-track-row solution">
+                        <button id="solutionBtn">Get the solution</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

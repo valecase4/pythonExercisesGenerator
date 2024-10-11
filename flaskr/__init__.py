@@ -17,8 +17,9 @@ def create_app(test_config=None):
     
     @app.route("/exercise")
     def exercise():
-        
+        with open("tests/exercise.txt", "r") as f:
+            content = f.readlines()
 
-        return render_template("index.html")
+        return render_template("index.html", content = content)
     
     return app
