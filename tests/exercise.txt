@@ -1,0 +1,10 @@
+Given the following dictionary:
+
+*copy*
+*py*dictionary = {
+*py**tab*"first_name": "Valerio",
+*py**tab*"last_name": "Caselli",
+*py**tab*"age": 22
+*py*}
+
+Print the dictionary.
