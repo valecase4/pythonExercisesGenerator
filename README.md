@@ -14,7 +14,6 @@ After that, the backend reads the content of the exercise track and sends it to 
 Example:
 
 ex_1/
-    
     ex_1.py --> Python solution 
     ex_1.txt --> track of the exercise
 
