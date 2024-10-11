@@ -7,25 +7,15 @@ This program consists of a random generator of Python Exercises.
 ### How it works
 
 _src_ directory contains all the exercises.
+Each exercise consists of a specific directory that contains its track (_.txt_ file) and its solution (_.py_ file).
+The program chooses one of these directories (i.e., it chooses an exercise) randomly.
+After that, the backend reads the content of the exercise track and sends it to the frontend.
 
-First, implemented a blueprint view using a test exercise. You can find it at test/exercise.txt
+Example:
 
-This file is structured as follow:
+ex_1/
+    
+    ex_1.py --> Python solution 
+    ex_1.txt --> track of the exercise
 
-File contains a given input for the exercise (i.e., a dictionary). This part should displayed in a different way in the frontend
-since it represents Python Code. Therefore, each line that contains Python code within the file starts with the _*py*_ operator.
-To better represent Python Code in the frontend, each line contains _*tab*_ operator. This operator is converted to 4 whitespaces in the frontend using Jinja. 
-
-Jinja is used to render the frontend based on the content of each line within the input file.
-
-Example: 
-Consider this line: 
-
-*py**tab*"first_name": "Valerio",
-
-The backend knows that's Python Code since the presence of _*py*_ operator. 
-Then, the backend knows that 4 whitespace are required since the presence of *_tab_* operator.
-
-Other operators within the file:
-
-- _*copy*_: it means that this line contains a button "Copy" in the frontend. If a given input (i.e., Python Code) exists, user can copy it by clicking this button and paste it in his code editor to solve the exercise.
+### How the .txt file is structured
